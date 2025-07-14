@@ -1,0 +1,28 @@
+{
+  "name": "Comment-tracker",
+  "id": "1525410534370841743",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "capabilities": [],
+  "enableProposedApi": true,
+  "documentAccess": "dynamic-page",
+  "relaunchButtons": [
+    {"command": "edit", "name": "Edit shape"},
+    {"command": "open", "name": "Open Shaper", "multipleSelection": true}
+  ],
+  "menu": [
+    { "name": "Open Tracker", "command": "open" }
+  ],
+  "permissions": [],
+  "editorType": [
+    "figma",
+    "figjam",
+    "slides"
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  }
+}

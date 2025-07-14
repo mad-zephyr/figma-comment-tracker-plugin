@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "strict": true,
+
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "types": ["@figma/plugin-typings", "node"],
+    "paths": {
+      "@/*":        ["src/*"],
+      "@app/*":     ["src/app/*"],
+      "@pages/*":   ["src/pages/*"],
+      "@widgets/*": ["widgets/*"],
+      "@features/*":["features/*"],
+      "@entities/*":["entities/*"],
+      "@shared/*":  ["shared/*"]
+    },
+  },
+  "include": ["src/**/*", "**/*.{ts,tsx}", "../vite.config.ts", "vite-env.d.ts", "src/shared/config/theme.d.ts"],
+  "exclude": [
+    "../node_modules",
+    "../dist"
+  ]
+}

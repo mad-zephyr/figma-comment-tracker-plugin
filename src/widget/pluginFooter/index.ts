@@ -1,0 +1,1 @@
+export { PluginFooter } from './pluginFooter'
